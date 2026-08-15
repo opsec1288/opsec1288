@@ -8,41 +8,30 @@
  | | | | |  _ |  _| | |_) |  _| \___ \| | | || |_) |
  | |_| | |_| || |___|  __/|___| ___) | |_| ||  __/
   \____/\____|_____|_|   |____||____/ \___/ |_|
-            diy hardware // pentest handhelds // teach not hurt
+            diy hardware // pentest fleet // teach not hurt
 ```
 
-Hey — I build **tiny hacker hardware** and the software that drives it. ESP32/Bruce
-firmware, Raspberry Pi CM4 / uConsole rigs, RFID + WiFi toys. Everything I publish is
-**built to teach, not hurt** — authorized labs, your own gear, your own networks.
+I build **tiny hacker hardware** and the software that drives it — ESP32 / RP2040 / Pi
+rigs, RFID + WiFi toys, and one Android app to rule them all. Everything is **built to
+teach, not hurt**: authorized labs, your own gear, your own networks.
+
+### The fleet
+| Project | Silicon | What it is |
+|---------|---------|------------|
+| [Evil Dark Pi OS](https://github.com/opsec1288/evil-dark-pi-os) | uConsole CM4 (eMMC) | tiny pentest desktop — drivers + LXQt + tool downloader |
+| [DeathStalker](https://github.com/opsec1288/deathstalker) | RPi Zero 2 W + ESP32 | Flipper-class wireless handheld (WiFi/BLE/sub-GHz/BadUSB) |
+| [Parasite](https://github.com/opsec1288/parasite) | RP2040 Zero + ESP8266 | "Infectious Rubber Ducky" — remote-triggered HID |
+| [Black Widow](https://github.com/opsec1288/black-widow) | NanoPi Neo3 + ESP32-C6 | leave-behind recon "dropbox" (sub-GHz/BLE) |
+| [Hive Mind](https://github.com/opsec1288/hive-mind) | Android | one app to drive the whole fleet |
+| [Web Flasher](https://github.com/opsec1288/web-flasher) | browser | flash ESP32/ESP8266/RP2040 over USB, no CLI |
 
 ### What I mess with
-`ESP32 / ESP32-C6` · `Bruce firmware` · `Raspberry Pi CM4 + uConsole` · `RFID / PN532`
-· `CC1101 sub-GHz` · `WiFi (802.11) + Bluetooth` · `Python / Bash` · `Yocto-ish image builds`
-
-### Featured build
-<table>
-<tr>
-<td width="60%">
-<strong>Evil Dark Pi OS</strong><br/>
-A tiny Debian Bookworm image for the <strong>uConsole CM4 (eMMC-only)</strong> — the "wrong"
-module everyone ends up with. Ships ClockworkPi screen+keyboard drivers, a lean LXQt GUI,
-and a one-shot downloader for ~25 pentest tools. Leaves eMMC headroom for your own loot.<br/>
-<a href="https://github.com/opsec1288/evil-dark-pi-os"><code>github.com/opsec1288/evil-dark-pi-os</code></a>
-</td>
-<td>
-<img src="https://github.com/opsec1288/evil-dark-pi-os/raw/main/tools/TOOLS.md" width="1" height="1"/>
-</td>
-</tr>
-</table>
-
-### More coming
-These are in the lab / on this machine, publishin' soon:
-- `acid-zero` — CM4 3.5" TFT pentest launcher (offensive modules)
-- `RAL parasite` — ESP32-C6 multi-radio rig (CC1101 / PN532 / GPS)
-- `Deathstalker` — firmware fork
+`ESP32 / ESP32-C6` · `RP2040 / Pico` · `ESP8266` · `Bruce firmware` · `Raspberry Pi (Zero 2 W / CM4 / Neo3)`
+· `RFID / PN532` · `CC1101 sub-GHz` · `WiFi (802.11) + Bluetooth` · `Python / Bash / CircuitPython`
 
 ### Links
 [GitHub](https://github.com/opsec1288) · [Evil Dark Pi OS](https://github.com/opsec1288/evil-dark-pi-os)
+· [Web Flasher](https://opsec1288.github.io/web-flasher/)
 
 ---
 
