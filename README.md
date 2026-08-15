@@ -20,8 +20,8 @@ teach, not hurt**: authorized labs, your own gear, your own networks.
 |---------|---------|------------|
 | [Evil Dark Pi OS](https://github.com/opsec1288/evil-dark-pi-os) | uConsole CM4 (eMMC) | tiny pentest desktop — drivers + LXQt + tool downloader |
 | [DeathStalker](https://github.com/opsec1288/deathstalker) | RPi Zero 2 W + ESP32 | Flipper-class wireless handheld (WiFi/BLE/sub-GHz/BadUSB) |
-| [Parasite](https://github.com/opsec1288/parasite) | RP2040 Zero + ESP8266 | "Infectious Rubber Ducky" — remote-triggered HID |
-| [Black Widow](https://github.com/opsec1288/black-widow) | NanoPi Neo3 + ESP32-C6 | leave-behind recon "dropbox" (sub-GHz/BLE) |
+| Parasite 🔧 | RP2040 Zero + ESP8266 | "Infectious Rubber Ducky" — remote-triggered HID (code dropping tonight) |
+| Black Widow 🔧 | NanoPi Neo3 + ESP32-C6 | leave-behind recon "dropbox" (sub-GHz/BLE) (code dropping tonight) |
 | [Hive Mind](https://github.com/opsec1288/hive-mind) | Android | one app to drive the whole fleet |
 | [Web Flasher](https://github.com/opsec1288/web-flasher) | browser | flash ESP32/ESP8266/RP2040 over USB, no CLI |
 
